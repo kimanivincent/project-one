@@ -1,0 +1,232 @@
+.h
+{
+    background-color: #12304e;
+}
+
+.y
+{
+    background-image: url("../../images/three.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+
+.f
+{
+    color: white;
+    padding: 3px;
+    padding-right: 13px;
+}
+
+.k
+{
+    margin-left: 40%;
+}
+
+.t
+{
+    color: white;
+    text-decoration: underline;
+    padding: 9px;
+}
+
+@font-face
+{
+    font-family: newfont;
+    src: url("../../fonts/kim.ttf");
+}
+
+@font-face
+{
+    font-family: newfont2;
+    src: url("../../fonts/Lobster.ttf");
+}
+
+@font-face
+{
+    font-family: newfont3;
+    src: url("../../fonts/me.ttf");
+}
+
+@font-face
+{
+    font-family: newfont4;
+    src: url("../../fonts/Pacifico.ttf");
+}
+
+@font-face
+{
+    font-family: newfont5;
+    src: url("../../fonts/that.ttf");
+}
+
+@font-face
+{
+    font-family: newfont6;
+    src: url("../../fonts/tim.ttf");
+}
+
+.w
+{
+ background-color: whitesmoke;
+}
+
+a.t:hover
+{
+    background-color: white;
+    color: #650609;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #bbb;
+}
+.active {
+    background-color: gray(0);
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid black;
+}
+
+hr
+{
+    background-color: blue;
+    height: 2px;
+
+}
+
+.dropbtn
+{
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-decoration: underline;
+    display: block;
+}
+
+.dropdown-content a:hover
+{
+    background-color: #162b65;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+    background-color: cornflowerblue;
+}
+
+.x
+{
+    background-image: url("../../images/one.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.j
+{
+    background-image: url("../../images/two.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.p
+{
+    background-image: url("../../images/three.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.u
+{
+    margin-left: 1%;
+    padding-top: 10px;
+}
+
+.n
+{
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: newfont4;
+    font-size: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px 10px 0px 12px;
+}
+
+a.n:hover
+{
+    background-color: red;
+    color: #005cbf;
+}
+
+.g
+{
+    clear: both;
+    float: right;
+}
+
+#t
+{
+    margin-right: 20%;
+    background-image: url("");
+
+}
